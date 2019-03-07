@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
 Created by Daniel Piekacz on 2012-01-14.
 Last update on 2015-02-27.
@@ -13,7 +13,7 @@ import json
 import radix
 import MySQLdb
 import logging
-import queue
+import Queue as queue
 from threading import Thread, RLock
 
 config = {}
